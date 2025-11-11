@@ -38,7 +38,7 @@ Choose for continue the system:
     else:
         print("Invalid choice!Enter 1 ,2 or 3.")
         continue
-#hocam ilk adımı yapmaya calıstım ama elif menu == "2" : kısmından sonra yeni bir username tanımlayıp menuye geri donup login yapınca set'e kaydolmuyor. you havve not registered yazıyo. Saatlerdir bakıyorum ama cozemedim nasıl yapabilirim? bir de powershell de calıstırınca kapanıyor ama visual studio'da gayet çalışıyor.
+#hocam ilk adımı yapmaya calıstım ama elif menu == "2" : kısmından sonra yeni bir username tanımlayıp menuye geri donup login yapınca set'e kaydolmuyor. you have not registered yazıyo. Saatlerdir bakıyorum ama cozemedim nasıl yapabilirim? bir de powershell de calıstırınca kapanıyor ama visual studio'da gayet çalışıyor.
 
 
 
