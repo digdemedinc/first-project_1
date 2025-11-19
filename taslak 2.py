@@ -19,7 +19,7 @@ Choose for continue the system:
             print("You have not registered before. Try to register.")
             continue
         elif username in users and users[username] != password :
-            print("Password is incorrect.")
+            print("Password is incorrect. Try again please.")
             continue
         else:
             print("Login successful!")
@@ -32,13 +32,14 @@ Choose for continue the system:
             continue
         else:
             users[username] = password
-            print("Registration successful!")
+            print("Registration successful! You can login now.")
     elif menu == "3" :
         print("Exiting system.")
         break
     else:
         print("Invalid choice!Enter 1 ,2 or 3.")
         continue
+
 
 
 
